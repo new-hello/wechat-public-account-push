@@ -6,12 +6,14 @@
  * 自行添加属性，以支持更多个性化功能
  */
 const USER_CONFIG = {
+  
+  USE_PASSAGE: 'wechat-test',
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: 'wxf3dc5e22920145c6',
+  APP_ID: '',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '49938567ff8844187f606b78485b47bc',
+  APP_SECRET: '',
 
   PROVINCE: '四川',
   CITY: '内江',
@@ -26,6 +28,7 @@ const USER_CONFIG = {
       useTemplateId: 'Wll2CKCuAhlxGVu_X38JorWDK2SNAkYx7pzFNUjKafA	',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '04-21',
+       horoscopeDateType: '今日',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
