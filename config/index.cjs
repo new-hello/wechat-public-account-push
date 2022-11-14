@@ -17,6 +17,13 @@ const USER_CONFIG = {
 
   PROVINCE: '四川',
   CITY: '内江',
+  
+   TIAN_API: {
+    // 天行API KEY，如果使用天行API则需要填写此项
+    key: '65687576542844d3796c6cf07a78cd47',
+     
+    // 早安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    morningGreeting: true,
 
   USERS: [
     {
@@ -25,7 +32,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oHkJg6RMxKEg0nWPLzYj1j2oLvDI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'UrE5LjYFHzsB5dCGkseExrnZ8sWoYorNpDYJpFvIXhw	',
+      useTemplateId: '	UrE5LjYFHzsB5dCGkseExrnZ8sWoYorNpDYJpFvIXhw	',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '04-21',
       horoscopeDateType: '今日',
@@ -44,7 +51,6 @@ const USER_CONFIG = {
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
-        customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2022-05-22' },
 
@@ -52,13 +58,7 @@ const USER_CONFIG = {
     },
   ],
     
-    TIAN_API: {
-    // 天行API KEY，如果使用天行API则需要填写此项
-    key: '65687576542844d3796c6cf07a78cd47',
-    
-    /** 天行API相关，需要config中配置 TIAN_API_KEY  */
-    // 早安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    morningGreeting: true,
+   
   
 
 
