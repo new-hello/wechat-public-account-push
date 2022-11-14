@@ -24,7 +24,7 @@ const USER_CONFIG = {
      
     // 早安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     morningGreeting: true,
-    tian_api_morning_greeting: '',
+    tian_api_morning_greeting: 'https://apis.tianapi.com/zaoan/index?key=65687576542844d3796c6cf07a78cd47',
    },
 
   USERS: [
@@ -54,7 +54,7 @@ const USER_CONFIG = {
       // 我们在一起已经有xxxx天了的配置
       CUSTOMIZED_DATE_LIST: [
         // 在一起的日子
-        { 'keyword': 'love_day', date: '2022-05-22' },
+        { "keyword": "love_day", date: "2022-05-22" },
 
       ],
     },
