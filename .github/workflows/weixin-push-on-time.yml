@@ -35,6 +35,6 @@ jobs:
     env: 
       APP_ID: ${{secrets.APP_ID}}
       APP_SECRET: ${{secrets.APP_SECRET}}
-      TIAN_API_KEY: ${{secrets.TIAN_API_KEY}}
+      key: ${{secrets.key}}
 
 
