@@ -63,7 +63,7 @@ const USER_CONFIG = {
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     courseSchedule: false,
     
-    notice:true,
+    NOTICE:true,
   },
   
   TIAN_API: {
