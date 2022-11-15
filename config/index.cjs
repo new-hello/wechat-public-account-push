@@ -62,12 +62,10 @@ const USER_CONFIG = {
     /** 学生课表 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     courseSchedule: false,
+    
+    notice:true,
   },
-   SLOT_LIST: [
-    // 这样配置的话，就会每次发送这句话
-    { keyword: 'notice', contents: '' },
-      ],
-
+  
   TIAN_API: {
     // 天行API KEY，如果使用天行API则需要填写此项
     key: '',
@@ -110,7 +108,7 @@ const USER_CONFIG = {
       // 所在省份或城市，也可以不填
       province: '四川',
       // 所在城市或县区
-      city: '',
+      city: '内江',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '04-21',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
