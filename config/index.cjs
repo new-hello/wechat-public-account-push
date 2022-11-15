@@ -37,7 +37,7 @@ const USER_CONFIG = {
     CIBA: true,
     
     // 每日一言, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    oneTalk: true,
+    oneTalk: false,
     
     // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     earthyLoveWords: false,
@@ -87,7 +87,7 @@ const USER_CONFIG = {
   
   /** 是否给文字设置多彩颜色, 和emoji不兼容 */
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
-  IS_SHOW_COLOR: false,
+  IS_SHOW_COLOR: true,
   
 
   /**
@@ -96,17 +96,17 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '露露',
+      name: '露露宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
       id: 'oHkJg6RMxKEg0nWPLzYj1j2oLvDI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: 'UrE5LjYFHzsB5dCGkseExrnZ8sWoYorNpDYJpFvIXhw',
+      useTemplateId: 'Zv0NC1YS-cHkcSqs_my9xDMkZzJHp5cU_rg_jvw9i4s',
       // 所在省份或城市，也可以不填
       province: '四川',
       // 所在城市或县区
-      city: '内江',
+      city: '东兴区',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '04-21',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
