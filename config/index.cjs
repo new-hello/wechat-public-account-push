@@ -66,7 +66,7 @@ const USER_CONFIG = {
   
   TIAN_API: {
     // 天行API KEY，如果使用天行API则需要填写此项
-    key: '',
+    key: '65687576542844d3796c6cf07a78cd47',
     
     /** 天行API相关，需要config中配置 TIAN_API_KEY  */
     // 早安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
@@ -88,11 +88,6 @@ const USER_CONFIG = {
   /** 是否给文字设置多彩颜色, 和emoji不兼容 */
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
   IS_SHOW_COLOR: false,
-  
-  /** 每日一言 */
-  // 每日一言的内容类型
-  // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: '',
   
 
   /**
@@ -116,8 +111,6 @@ const USER_CONFIG = {
       horoscopeDate: '04-21',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
-      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: 'https://www.xiaohongshu.com/user/profile/605c0243000000000100210c?xhsshare=QQ&appuid=5e5eb99d000000000100a8a3&apptime=1668405053',
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -139,13 +132,9 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2022-05-22' },
-        // 结婚纪念日
-        { keyword: 'marry_day', date: '0000-00-00' },
+        
       ],
-    
-    // 上面你可以不断按格式往下增加
-    // ...
-     },
+    },
   ],
 
   /**
@@ -168,6 +157,7 @@ const USER_CONFIG = {
     // 你可以不断按格式往下增加
     // ...
   ],
+}
 
 
 module.exports = USER_CONFIG
