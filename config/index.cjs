@@ -10,10 +10,10 @@ const USER_CONFIG = {
   USE_PASSAGE: 'wechat-test',
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: 'wxf3dc5e22920145c6',
+  APP_ID: '',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '49938567ff8844187f606b78485b47bc',
+  APP_SECRET: '',
   
   // 功能开关,打开：true，关闭：false
   SWITCH: {
