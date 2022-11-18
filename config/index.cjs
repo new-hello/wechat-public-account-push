@@ -85,7 +85,7 @@ const USER_CONFIG = {
       name: '自己',
       
       id: 'oHkJg6RMxKEg0nWPLzYj1j2oLvDI',
-      ]
+      
     }
   ],
 }
