@@ -48,7 +48,6 @@ const USER_CONFIG = {
     
     NOTICE:true,
     
-    OPENURL:true,
   },
   
   TIAN_API: {
@@ -97,8 +96,8 @@ const USER_CONFIG = {
       horoscopeDate: '04-21',
 
       horoscopeDateType: '今日',
-
-      openUrl: 'https://www.xiaohongshu.com/user/profile/605c0243000000000100210c?xhsshare=QQ&appuid=5e5eb99d000000000100a8a3&apptime=1668405053',
+      
+       openUrl: 'https://wangxinleo.cn',
       
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
