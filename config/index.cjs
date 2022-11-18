@@ -48,7 +48,7 @@ const USER_CONFIG = {
     
     NOTICE:true,
     
-    openUrl:true,
+    OPENURL:true,
   },
   
   TIAN_API: {
