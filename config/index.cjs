@@ -22,13 +22,6 @@ const USER_CONFIG = {
   // 如果你非要填这里也行。脚本也能运行
   APP_SECRET: '',
   
-  // 为了避免推送服务器误将脚本列为恶意推送脚本，可设置每分钟脚本最大推送数
-  // 每分钟脚本最大推送数，超过此数将会休眠1分钟后再发送剩余消息，不填则默认为5
-  // 此项不建议随意修改
-  MAX_PUSH_ONE_MINUTE: 5,
-  // 配合MAX_PUSH_ONE_MINUTE使用，休眠<SLEEP_TIME>毫秒后再发送剩余消息，不填则默认为65000
-  SLEEP_TIME: 65000,
-
   // 功能开关,打开：true，关闭：false
   SWITCH: {
     /** 每日天气 */
@@ -79,10 +72,10 @@ const USER_CONFIG = {
       name: '露露宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'oHkJg6bYOtp3MKws5XhHh0oh01Og',
+      id: 'oHkJg6RMxKEg0nWPLzYj1j2oLvDI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: 'EJWi2QHs0ZMrjjCBvBoEHL_3OH4UkoiNge2UAFG7rmc',
+      useTemplateId: 'EJWi2QHs0ZMrjjCBvBoEHL_3OH4UkoiNge2UAFG7rmc	',
       // 所在省份或城市，也可以不填
       province: '四川',
       // 所在城市或县区
@@ -119,7 +112,7 @@ const USER_CONFIG = {
 
   // 使用微信测试号：【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   // 使用其他通道时，请填写 config/template-config.cjs 中【推送完成提醒】模板的id
-  CALLBACK_TEMPLATE_ID: 'M6sw_D_e-tCFmh0S-7cPzCuVMHLouxgoSWTIA-orauY',
+  CALLBACK_TEMPLATE_ID: '	M6sw_D_e-tCFmh0S-7cPzCuVMHLouxgoSWTIA-orauY',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
