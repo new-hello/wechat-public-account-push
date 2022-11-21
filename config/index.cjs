@@ -76,6 +76,8 @@ const USER_CONFIG = {
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
       useTemplateId: 'EJWi2QHs0ZMrjjCBvBoEHL_3OH4UkoiNge2UAFG7rmc',
+      //网址
+      openUrl:"https://www.xiaohongshu.com/user/profile/605c0243000000000100210c?xhsshare=QQ&appuid=5e5eb99d000000000100a8a3&apptime=1668405053"
       // 所在省份或城市，也可以不填
       province: '四川',
       // 所在城市或县区
