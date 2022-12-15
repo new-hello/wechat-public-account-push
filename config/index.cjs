@@ -1,25 +1,12 @@
 /* eslint-disable */
 const USER_CONFIG = {
-  /**
-   * 基本配置
-   */
-  
-  // 使用的推送通道：['push-deer', 'wechat-test', 'server-chan', 'push-plus']
-  // 默认使用 【微信测试号】
-  // 使用【pushDeer】请填写 push-deer
-  // 使用【微信测试号】请填写 wechat-test
-  // 使用【方糖服务号】请填写 server-chan
-  // 使用【pushplus推送加服务号】请填写 push-plus
+
   USE_PASSAGE: 'wechat-test',
   
-  // 使用微信测试号时才需要填写：公众号APP_ID
-  // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
-  // 如果你非要填这里也行。脚本也能运行
+ 
   APP_ID: '',
 
-  // 使用微信测试号时才需要填写：公众号APP_SECRET
-  // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
-  // 如果你非要填这里也行。脚本也能运行
+  
   APP_SECRET: '',
   
   // 功能开关,打开：true，关闭：false
