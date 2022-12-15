@@ -12,42 +12,42 @@ const USER_CONFIG = {
   // 功能开关,打开：true，关闭：false
   SWITCH: {
     /** 每日天气 */
-    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+   
     weather: true,
 
     /** 节假日 */
-    // 下一休息日综合提醒, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+   
     holidaytts: false,
 
     /** 每日N句 */
     // 金山每日一句, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     CIBA: true,
     
-    // 每日一言, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    // 每日一言
     oneTalk: false,
     
-    // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    // 土味情话(彩虹屁)
     earthyLoveWords: false,
     
-    // 朋友圈文案, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    // 朋友圈文案
     momentCopyrighting: false,
     
-    // 毒鸡汤, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    // 毒鸡汤
     poisonChickenSoup: false,
     
-    // 古诗古文, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    // 古诗古文
     poetry: false,
 
     /** 星座运势 */
-    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    
     horoscope: true,
   
     /** 生日消息和节日消息 */
-    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    
     birthdayMessage: true,
   
     /** 学生课表 */
-    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+  
     courseSchedule: false,
   },
   
@@ -55,23 +55,23 @@ const USER_CONFIG = {
   
  USERS: [
     {
-      // 想要发送的人的名字
+      
       name: '露露宝贝',
-      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      // 使用其他通道时，请严格按照各个通道的教程进行填写
+      
+      
       id: 'oHkJg6bYOtp3MKws5XhHh0oh01Og',
-      // 使用微信测试号：你想对他发送的模板消息的模板ID
-      // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
+      
+      
       useTemplateId: 'EJWi2QHs0ZMrjjCBvBoEHL_3OH4UkoiNge2UAFG7rmc',
-      // 所在省份或城市，也可以不填
+      
       province: '四川',
       // 所在城市或县区
       city: '内江',
-      // 新历生日, 仅用作获取星座运势, 格式必须
+      //获取星座运势
       horoscopeDate: '04-21',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
-      // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
+      // 专属节日提醒
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         //{type: '*生日', name: '露露宝贝', year: '2001', date: '04-21',},
@@ -84,7 +84,7 @@ const USER_CONFIG = {
         { type: '节日', name: '除夕', year: '2023', date: '01-21',}
         
       ],
-      // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
+      // 专属纪念日/倒数日
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2022-05-22' },
