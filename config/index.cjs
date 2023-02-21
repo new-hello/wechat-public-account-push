@@ -72,10 +72,6 @@ const USER_CONFIG = {
       // 如果courseSchedule是一个数组，则认为不区分单双周，直接填写星期几对应的课表数据即可
       // 如果courseSchedule是一个对象（如下面所示）
       courseSchedule: {
-        // 课表
-        courses: {
-          // 单周课表
-          // 从星期一到星期日（星期六和星期日的课表数组可不填写）
           odd: [
             // 例子，周一的课表
             [
@@ -107,7 +103,6 @@ const USER_CONFIG = {
           ],
         },
        },
-      },
       ],
   /**
    * 【推送完成提醒】 相关，主要用来展示发送是否成功/失败的数据
@@ -115,7 +110,7 @@ const USER_CONFIG = {
 
   // 使用微信测试号：【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   // 使用其他通道时，请填写 config/template-config.cjs 中【推送完成提醒】模板的id
-  CALLBACK_TEMPLATE_ID: '	uDGKSdrCUyi2Qh3Dz9ysjhVmwZz3KHkbHgThr1OKnEs',
+  CALLBACK_TEMPLATE_ID: '	uDGKSdrCUyi2Qh3Dz9ysjhVmwZz3KHkbHgThr1OKnEs	',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
