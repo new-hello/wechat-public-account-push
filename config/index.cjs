@@ -57,13 +57,13 @@ const USER_CONFIG = {
       id: 'oHkJg6RMxKEg0nWPLzYj1j2oLvDI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: 'EJWi2QHs0ZMrjjCBvBoEHL_3OH4UkoiNge2UAFG7rmc',
+      useTemplateId: 'wZ9zR_JViFEs9JqtCgHKP7Yc6Kc--6CWWyIPqivVN_0',
       // 所在省份或城市，也可以不填
       province: '四川',
       // 所在城市或县区
-      city: '',
+      city: '达州',
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '00-00',
+      horoscopeDate: '10-14',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
@@ -74,15 +74,15 @@ const USER_CONFIG = {
         //{type: '节日', name: '无', year: '2020', date: '09-03',},
         
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        { type: '生日', name: '', year: '2000', date: '00-00',},
+        { type: '生日', name: 'ak', year: '2000', date: '01-01',},
         
-        { type: '节日', name: '除夕', year: '2000', date: '00-00',}
+        { type: '节日', name: '除夕', year: '2000', date: '01-01',}
         
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-05-22' },
+        { keyword: 'love_day', date: '2000-01-01' },
       
       ],
     },
